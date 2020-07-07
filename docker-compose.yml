@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  red-dashboard:
+    container_name: red-dashboard
+    build: .
+    # ports:
+    #   - 42356:42356
+    #   - 6133:6133
